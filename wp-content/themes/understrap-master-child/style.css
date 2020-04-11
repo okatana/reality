@@ -1,0 +1,70 @@
+/*
+Theme Name: understrap-child
+Template: understrap
+Theme URI: http://example.com/
+Description: Дочерняя тема для темы UnderStrap
+Author: Okatana
+Author URI: http://example.com/about/
+Version: 1.0
+*/
+
+
+
+body {
+    max-width: 1024px;
+    border: solid #e2e2e2 1px;
+    margin: 0 auto;
+
+}
+#page{
+    background-color: #fff;
+}
+.index-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.index-section-item{
+    text-align: center;
+    width: 20%;
+    min-width: 200px;
+    border-radius: 6px;
+    border: solid #e2e2e2 1px;
+    background-color: #fff;
+    padding: 10px;
+}
+.item-60{
+    width: 60%;
+    text-align: justify;
+}
+
+.thumbnail-attachment, .entry-img img{
+    padding: 6px;
+    border-radius: 6px;
+    border: solid #e2e2e2 1px;
+    margin: 0 10px 10px 0;
+    background-color: #fff;
+}
+.entry-title{
+    color: #53f;
+}
+.entry-content{
+    padding: 10px;
+}
+.entry-content p{
+    text-align: justify;
+}
+.reality-entry-conten img{
+    padding: 10px;
+}
+.card-body{
+    padding:0;
+}
+.form-group select{
+    width:100%;
+    border: solid #e2e2e2 1px;
+    padding: 10px;
+    border-radius: 6px;
+}
