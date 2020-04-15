@@ -68,3 +68,9 @@ body {
     padding: 10px;
     border-radius: 6px;
 }
+.border-gray{
+    border: solid #d5d5d5 1px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+}
